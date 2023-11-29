@@ -1,0 +1,18 @@
+.postPage {
+	padding: 11rem;
+	height: 100vh;
+	color: var(--text-color);
+}
+
+.buttonBack {
+	display: flex;
+}
+
+.postItem {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin-top: 50px;
+	border: 2px solid teal;
+	padding: 15px;
+}

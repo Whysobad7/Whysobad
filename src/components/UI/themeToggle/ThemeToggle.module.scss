@@ -1,0 +1,48 @@
+.themeBlock {
+	display: flex;
+	background-color: white;
+	border-radius: 2rem;
+	cursor: pointer;
+	border: 2px orange solid;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+}
+
+.themeBlockDark {}
+
+
+.ButtonSun {
+	border-radius: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.3rem;
+	background-color: orange;
+	transition: all 0.5s ease;
+}
+
+.ButtonSunDark {
+	transform: translateX(100%);
+	background-color: #fff;
+}
+
+
+
+.ButtonMoon {
+	border-radius: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.3rem;
+	background-color: white;
+	transition: all 0.5s ease;
+}
+
+.ButtonMoonDark {
+	transform: translateX(-100%);
+	background-color: orange;
+}
+
+
+.sun {}
+
+.moon {}

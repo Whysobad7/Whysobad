@@ -1,0 +1,79 @@
+@use './typography.scss' as *;
+
+:root {
+	--background-color: rgb(240, 231, 219);
+	--text-color: #1A202C;
+	--title-color: #2d2e32;
+	--hover-color: #20B2AA;
+	--svg-color: #000;
+	--header-background: #ffffff40;
+	--burger-background: #fff;
+	--project-color: rgba(255, 255, 255, 0.36);
+	--h3-color: #147efb;
+}
+
+
+.dark-theme {
+	--background-color: rgb(32, 32, 35);
+	--text-color: rgba(255, 255, 255, 0.92);
+	--title-color: rgba(255, 255, 255, 0.92);
+	--hover-color: #20B2AA;
+	--svg-color: #fff;
+	--header-background: none;
+	--burger-background: #2D3748;
+	--project-color: rgba(255, 255, 255, 0.08);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 107rem;
+	padding: 0 4rem;
+}
+
+@media (max-width: 460px) {
+	.container {
+		padding: 0 1.7rem;
+	}
+}
+
+.App {
+	font-size: $text-size;
+	font-family: $title-font;
+	background-color: var(--background-color);
+	transition: all 0.5s ease;
+}
+
+
+
+
+.fade-enter {
+	opacity: 0;
+	transform: translateY(10rem);
+}
+
+.fade-enter-active {
+	opacity: 1;
+	transform: translateY(0);
+	transition: opacity 500ms, transform 500ms;
+}
+
+.fade-exit {
+	opacity: 1;
+	transform: translateY(0rem);
+}
+
+.fade-exit-active {
+	opacity: 0;
+	transform: translateY(10rem);
+	transition: opacity 500ms, transform 500ms;
+}

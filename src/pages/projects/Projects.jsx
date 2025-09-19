@@ -28,17 +28,6 @@ const projectsData = [
 		},
 		repoLink: 'https://github.com/Whysobad7/Yandex-GO',
 		demoLink: 'https://whysobad7.github.io/Yandex-GO/',
-	},
-	{
-		name: 'Posts',
-		img: posts,
-		description: 'A test educational project with posts in React, implementing dynamic pagination, the ability to delete, add, and sort posts, and opening each post on a separate page.',
-		stack: {
-			lib: 'React',
-			style: 'SCSS'
-		},
-		repoLink: 'https://github.com/Whysobad7/posts',
-		demoLink: '/posts',
 	}
 ]
 

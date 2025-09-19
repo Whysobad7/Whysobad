@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Whysobad/static/css/main.c6fdd967.css",
+    "main.js": "/Whysobad/static/js/main.a7db5681.js",
+    "static/media/naruto.gif": "/Whysobad/static/media/naruto.fb6f912b8e78258bc441.gif",
+    "static/media/Cyberpunk.webp": "/Whysobad/static/media/Cyberpunk.bed9abfb6c460e302533.webp",
+    "static/media/Yandex-GO.webp": "/Whysobad/static/media/Yandex-GO.dc45339ef7bf3c4e982c.webp",
+    "static/media/posts.webp": "/Whysobad/static/media/posts.ab1f523aa3a6cd20d5d7.webp",
+    "static/media/avatar.jpg": "/Whysobad/static/media/avatar.7f9746a27a37cb645386.jpg",
+    "static/media/react.svg": "/Whysobad/static/media/react.90559045f44a8f4b2a2742d54f7f41a8.svg",
+    "static/media/scss.svg": "/Whysobad/static/media/scss.2b723b0dd82ec43605cceb10a94f9030.svg",
+    "static/media/js.svg": "/Whysobad/static/media/js.de4c2594613e34b15666206bbede7327.svg",
+    "index.html": "/Whysobad/index.html",
+    "static/media/css.svg": "/Whysobad/static/media/css.9cecabbf6ce67609c48bc4f280a11002.svg",
+    "static/media/html.svg": "/Whysobad/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
+    "main.c6fdd967.css.map": "/Whysobad/static/css/main.c6fdd967.css.map",
+    "main.a7db5681.js.map": "/Whysobad/static/js/main.a7db5681.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6fdd967.css",
+    "static/js/main.a7db5681.js"
+  ]
+}
